@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>asking </title>
+     <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <div>
+        <div class="box">
+            <h1 class="love_me ">You Love Me ?</h1> 
+            <button class="nobtn">No </button>
+            <button class="yesbtn ">yess</button>
+        </div>
+<!-- no  -->
+        <div class="img_overlay">
+            <div class="imgbtn">
+             <img class="fkimg" src="https://c4.wallpaperflare.com/wallpaper/734/857/117/black-background-gesture-fuck-off-hd-wallpaper-thumb.jpg">
+        </div>
+        </div>
+
+        <div class="next_overlay">
+            <div class="select">
+                <h2>How much you love me ?</h2>
+    
+                 <select class="input">
+                    <option>10%</option>
+                    <option>20%</option>
+                    <option>40%</option>
+                    <option>50%</option>
+                    <option>80%</option>
+                    <option>90%</option>
+                    <option>100%</option>
+                </select>
+                <button class="enter">Enter</button>
+                
+            
+            </div>
+        </div>
+
+        <div class="result_overlay">
+            <div class="result"></div>
+            <p >Mee too :
+            <img class="img" src="https://i.pinimg.com/originals/26/9e/21/269e21f1cb151bdcb154db777fdaac55.gif">
+        </p>
+        </div>
+    </div>
+
+        
+    </main>
+
+</body>
+<script src="script.js"></script>
+</html>
