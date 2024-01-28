@@ -1,0 +1,22 @@
+
+document.addEventListener("DOMContentLoaded", function () {
+    const nobtn = document.querySelector(".nobtn");
+    const imgOverlay = document.querySelector(".img_overlay");
+    const yesbtn = document.querySelector(".yesbtn");
+    const nextOverlay = document.querySelector(".next_overlay");
+    const enter = document.querySelector(".enter")
+    const result_overlay = document.querySelector(".result_overlay")
+
+    nobtn.addEventListener("click", function () {
+        imgOverlay.style.visibility = "visible";
+
+        
+    });
+    yesbtn.addEventListener("click", function(){
+        nextOverlay.style.visibility = "visible"
+    })
+    enter.addEventListener("click", function(){
+        result_overlay.style.visibility="visible";
+    })
+});
+
